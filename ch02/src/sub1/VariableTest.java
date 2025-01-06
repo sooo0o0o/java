@@ -2,8 +2,8 @@ package sub1;
 
 /*
  * 날짜 : 2024/12/31
- * 이름 : 정진우
- * 내용 : ch02.변수와 연산자
+ * 이름 : 곽혜수
+ * 내용 : 변수와 연산자
  */
 
 public class VariableTest {
