@@ -58,6 +58,16 @@ public class ClassTest {
 		kb.withdraw(50000);
 		kb.show();
 		
+		Account woori = new Account();
+		woori.bank = "우리은행";
+		woori.id = "110-11-1102";
+		woori.name = "김춘추" ;
+		woori.balance = 10000;
+		
+		woori.deposit(10000);
+		woori.withdraw(5000);
+		woori.show();
+		
 	}
 
 }
