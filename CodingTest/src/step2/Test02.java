@@ -1,13 +1,12 @@
 package step2;
 
-import java.util.Scanner;
-
 /*
  * 날짜 : 2025.01.07
  * 이름 : 곽혜수
  * 내용 : 백준 2단계 2번 시험 성적
  */
 
+import java.util.Scanner;
 
 public class Test02 {
 	public static void main(String[] args) {
