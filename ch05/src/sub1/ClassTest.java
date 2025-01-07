@@ -46,6 +46,18 @@ public class ClassTest {
 		avante.speedDown(20);
 		avante.show();
 		
+		
+		//Account 객체 생성과 초기화
+		Account kb = new Account();
+		kb.bank = "국민은행";
+		kb.id = "110-12-1101";
+		kb.name = "김유신";
+		kb.balance = 10000;
+		
+		kb.deposit(100000);
+		kb.withdraw(50000);
+		kb.show();
+		
 	}
 
 }
