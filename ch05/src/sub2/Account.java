@@ -1,3 +1,4 @@
+
 package sub2; //인스턴스화 시켜서 ClassTest.java 에서 호출하여 사용
 
 

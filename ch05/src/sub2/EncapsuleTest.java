@@ -63,6 +63,7 @@ public class EncapsuleTest {
 		woori.deposit(30000);
 		woori.withdraw(15000);
 		woori.show();
+		
 		/* 김유신 -> 김유진*/
 		
 		kb.setName("김유진");
@@ -72,6 +73,58 @@ public class EncapsuleTest {
 		
 		woori.setBank("유리은행");
 		woori.show();
+		
+		
+		
+		
+		/*
+		 <출력3>
+		 도서관 관리 시스템의 일부로 Book 클래스 정의하기
+		 */
+		
+		Book book1 = new Book("삼국지", "나관중", "10001", 10);
+		book1.show();
+		
+		boolean isOk = book1.borrowBook();
+		
+		if(isOk) {
+			System.out.println("도서 대출 성공!");
+		}else {
+			System.out.println("도서 대출 실패!");
+		}
+		
+		book1.show();
+		
+		Book book2 = new Book("이것이 자바다", "신용권", "10002", 0);
+		book2.show();
+		
+		if(book2.borrowBook()) {
+			System.out.println(book2.getTitle() + "도서 대출 성공!");
+		}else {
+			System.out.println(book2.getTitle() + "도서 대출 실패!");
+		}
+		
+		
+		/*
+		 <출력4>
+		 영화 예약 시스템
+		*/
+		
+		Movie movie1 = new Movie("글래디에이터","리들리스콧",8.0, 10);
+		movie1.showDetails();
+		
+		boolean reserved = movie1.reserveSeat();
+		
+		if(reserved) {
+			System.out.println("예약되었습니다.");
+		}else {
+			
+		}
+		
+		movie1.showDetails();
+		
+		
+		
 	}
 
 }
