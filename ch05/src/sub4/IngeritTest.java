@@ -6,7 +6,6 @@ package sub4;
  * 내용 : Java 클래스 상속 실습하기	
  */
 
-
 //클래스 생성
 
 class Parent{
