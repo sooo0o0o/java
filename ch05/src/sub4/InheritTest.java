@@ -52,7 +52,7 @@ class Child extends Parent {			// class 클래스명 extends 상속받을 클래
 
 //클래스 상속(Inherit) 이해하기
 
-public class IngeritTest {
+public class InheritTest {
 	
 	public static void main(String[] args) {
 		

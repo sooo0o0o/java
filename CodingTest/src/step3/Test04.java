@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * 날짜 : 2025.01.08
  * 이름 : 곽혜수
- * 내용 : 백준 3단계 4번 
+ * 내용 : 백준 3단계 4번 영수증
  */
 
 public class Test04 {
@@ -33,11 +33,8 @@ public class Test04 {
 			int price = a * b;
 			
 			result+=price;
-			
-			System.out.println(result);
+		
 		}
-		
-		
 		
 		compare = receiptPrice == result;
 		
