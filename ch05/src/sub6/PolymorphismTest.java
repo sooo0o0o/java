@@ -84,8 +84,29 @@ public class PolymorphismTest {
 		arr[1].move();
 		arr[2].move();
 		
+		/*
+		 * 1) Pet 클래스 정의
+		 * 2) 상속받는 Dog, Cat 클래스 정의
+		 * 3) 정적 메서드 printSoung()정의
+		 */
+		
+		System.out.println("-----------------------------------");
 		
 		
-	}
+		Pet dog = new Dog();
+		Pet cat = new Cat();
+		
+		
+		printSound(dog);
+		printSound(cat);
+		
+		
+	}//main() end
+	
+	public static void printSound(Pet pet) {		//printSound()에서 Dog, Cat 객체를 인자로 받는 매개변수 선언
+		
+		pet.makeSound();
+		
+	}		
 
 }
