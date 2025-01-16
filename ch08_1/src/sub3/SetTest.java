@@ -12,9 +12,9 @@ import java.util.Set;
 
 public class SetTest {
 	public static void main(String[] args) {
-
-		// set 생성
-		Set<Integer> set = new HashSet<>();
+		
+		//set 생성
+		Set<Integer> set = new HashSet<>(); 
 		set.add(1);
 		set.add(2);
 		set.add(3);
@@ -23,21 +23,22 @@ public class SetTest {
 		set.add(1);
 		set.add(2);
 		set.add(3);
-
+		
 		System.out.println(set);
-
-		// 반복자(iterator) 데이터 출력
+		
+		//반복자(iterator) 데이터 출력
 		Iterator<Integer> it = set.iterator();
-
-		while (it.hasNext()) {
-			// 다음 데이터가 존재할 때 까지 반복 실행
+		
+		while(it.hasNext()) {
+			//다음 데이터가 존재할 때 까지 반복 실행
 			System.out.println(it.next());
 		}
-
-		// 반목문으로 데이터 출력
-		for (int num : set) {
+		
+		//반목문으로 데이터 출력
+		for(int num: set) {
 			System.out.println(num);
 		}
-
+		
+		
 	}
 }
