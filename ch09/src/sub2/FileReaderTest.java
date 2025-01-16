@@ -10,7 +10,7 @@ import java.io.IOException;
 /*
  * 날짜 : 2025.01.16
  * 이름 : 곽혜수
- * 내용 : Java FileReader(문자 Stream) 실습하기
+ * 내용 : Java 문자 스트림 입출력 실습하기
  */
 
 public class FileReaderTest {
