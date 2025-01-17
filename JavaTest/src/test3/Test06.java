@@ -12,7 +12,7 @@ class Adder {
 	
 	public static Adder getInstance() {
 		return instance;
-	}
+	}									//싱글톤 객체 생성
 	
 	private Adder() {}		//기본 생성자와 생성자 오버로딩을 병행하기위해 *private 생성자() {}* 필요
 	
@@ -36,6 +36,10 @@ class Adder {
 	}
 	public static void add(Adder a2) {
 		a2.x += 10;
+		/*
+		 *.x = 참조변수
+		 *x 변수를 가지고 있는건 Adder 이므로 , Adder a2
+		*/
 	}
 	public static Adder add(Adder a3, int value) {
 		return new Adder(value);

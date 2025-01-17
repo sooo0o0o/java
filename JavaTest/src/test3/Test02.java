@@ -9,7 +9,7 @@ package test3;
 class King {
 	private String name;
 	private int year;
-	
+	//Overloading
 	public King(int year) {
 		this("정조");
 		this.year = year;
